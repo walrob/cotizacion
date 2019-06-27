@@ -1,0 +1,20 @@
+{
+  "name": "api-cotizacion",
+  "version": "1.0.0",
+  "description": "Prueba Técnica - API Rest de Cotizacion",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Walter Robledo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
